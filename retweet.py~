@@ -13,7 +13,7 @@ mapread = mmap.mmap(tweetedFile.fileno(), 0, access=mmap.ACCESS_READ)
 
 banned_accounts = ['todocoders', 'nodenow']
 naughty_words = [" -RT", "HackerEarth", "Looking for", "Jobs", "job", "prizes", "todocoders"]
-good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23CodeALot"]
+good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23O]
 filter = " OR ".join(good_words)
 blacklist = " -".join(naughty_words)
 keywords = filter + blacklist
