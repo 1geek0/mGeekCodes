@@ -22,11 +22,11 @@ current_followed = open(mGeekCodes_Path+'current_followed.csv', 'a+')
 #Mmaps
 tweetedMmap = mmap.mmap(tweetedFile.fileno(), 0, access=mmap.ACCESS_READ)
 all_followed_Mmap = mmap.mmap(all_followed.fileno(), 0, access=mmap.ACCESS_READ)
-current_followed_Mmap = mmap.mmap(current_followed.fileno(), 0, access=mmap.ACCESS_READ)
+#current_followed_Mmap = mmap.mmap(current_followed.fileno(), 0, access=mmap.ACCESS_READ)
 
 banned_accounts = ['todocoders', 'nodenow']
 naughty_words = [" -RT", "HackerEarth", "Looking for", "Jobs", "job", "prizes", "todocoders"]
-good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23CodeALot", "%23CodeHard"]
+good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23CodeALot", "%23CodeHard", "%40mGeekCodes"]
 filter = " OR ".join(good_words)
 blacklist = " -".join(naughty_words)
 keywords = filter + blacklist
@@ -42,17 +42,19 @@ try:
          if tweetedMmap.find(text) != -1:
              n=1
          else:
-            if current_followed_Mmap.find(tweeter) == -1:
-                twitter.create_friendship(tweeter)
-                print(tweeter+','+str(int(time.time())), file=all_followed)
-                
-            print(tweet)
+            #print(tweet)
             if tweeter not in banned_accounts:
                 print("New Tweet")
                 print(tweet['text'].encode('utf-8'), file=tweetedFile)
                 twitter.retweet(id = tweet["id_str"])
+                twitter.create_favorite(id = tweet['id_str'])
+                if all_followed_Mmap.find(tweeter) == -1:
+                    twitter.create_friendship(screen_name=tweeter)
+                    print(tweeter+','+str(int(time.time())), file=all_followed)
+                    print("New Friend: "+str(tweeter))
             else:
-                print("Banned Account")
+                n=2
+              #  print("Banned Account")
 except TwythonError as e:
     print(e)
 print(len(search_results['statuses']))
