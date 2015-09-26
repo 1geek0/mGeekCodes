@@ -16,6 +16,8 @@ current_followed = open(mGeekCodes_Path+'current_followed.csv', 'a+')
 tweetedMmap = mmap.mmap(tweetedFile.fileno(), 0, access=mmap.ACCESS_READ)
 all_followed_Mmap = mmap.mmap(all_followed.fileno(), 0, access=mmap.ACCESS_READ)
 
+banned_accounts = ['todocoders', 'nodenow']
+
 #Twitter Credentials
 app_key = "nemYHwbENbRIsqhjECmMGS1wx"
 app_secret = "mONLabyAwNIrls1PLn6M7yCroqbA52cuN4Erjs2ZqvH0PMb2I5"

@@ -2,6 +2,7 @@ from __future__ import print_function
 from twython import Twython, TwythonError
 import mmap
 import time
+import helper
 
 #Twitter Credentials
 app_key = "nemYHwbENbRIsqhjECmMGS1wx"
@@ -22,4 +23,4 @@ twitter = Twython(app_key, app_secret, oauth_token, oauth_token_secret)
 for user in accounts_special:
     tweets_from_him = twitter.get_user_timeline(screen_name=user)
     for tweet in tweets_from_him:
-        
+        helper.handle_tweet(tweet)
