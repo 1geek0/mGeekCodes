@@ -34,8 +34,6 @@ tweetedMmap = mmap.mmap(tweetedFile.fileno(), 0, access=mmap.ACCESS_READ)
 all_followed_Mmap = mmap.mmap(all_followed.fileno(), 0, access=mmap.ACCESS_READ)
 #current_followed_Mmap = mmap.mmap(current_followed.fileno(), 0, access=mmap.ACCESS_READ)
 
-<<<<<<< HEAD
-=======
 banned_accounts = ['todocoders', 'nodenow']
 naughty_words = [" -RT", "HackerEarth", "Looking for", "Jobs", "job", "prizes", "todocoders"]
 good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23CodeALot", "%23CodeHard", "%40mGeekCodes"]
@@ -45,33 +43,11 @@ keywords = filter + blacklist
 
 twitter = Twython(app_key, app_secret, oauth_token, oauth_token_secret)
 
->>>>>>> 0c5e32b3e258fb8ed0f4f72e1789912da204034c
 #Setting Twitter's search results as a variable
 search_results = twitter.search(q=keywords, count=100, result_type='mixed')
 try:
     for tweet in search_results["statuses"]:
-<<<<<<< HEAD
-         handle_tweet(tweet)
-=======
-         tweeter = tweet['user']['screen_name']
-         text = tweet['text'].encode('utf-8')
-         if tweetedMmap.find(text) != -1:
-             n=1
-         else:
-            #print(tweet)
-            if tweeter not in banned_accounts:
-                print("New Tweet")
-                print(tweet['text'].encode('utf-8'), file=tweetedFile)
-                twitter.retweet(id = tweet["id_str"])
-                twitter.create_favorite(id = tweet['id_str'])
-                if all_followed_Mmap.find(tweeter) == -1:
-                    twitter.create_friendship(screen_name=tweeter)
-                    print(tweeter+','+str(int(time.time())), file=all_followed)
-                    print("New Friend: "+str(tweeter))
-            else:
-                n=2
-              #  print("Banned Account")
->>>>>>> 0c5e32b3e258fb8ed0f4f72e1789912da204034c
+         helper.handle_tweet(tweet)
 except TwythonError as e:
     print(e)
 print(len(search_results['statuses']))
