@@ -13,8 +13,8 @@ to_be_followed = ['nilaydreams', 'ashwinkandoi', 'UXHow', 'tech_souls', 'NashikN
 followed = twitter.get_friends_ids(screen_name='mGeekCodes')
 following_me = twitter.get_followers_ids(screen_name='mGeekCodes')
 
-for user.next_cursor_str in followed:
+for user in followed['ids']:
     print user
     if user not in to_be_followed:
         if user not in following_me:
-            twitter.destroy_friendship(screen_name=user)
+            twitter.destroy_friendship(user_id=user)
