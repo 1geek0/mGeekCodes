@@ -23,7 +23,8 @@ twitter = Twython(app_key, app_secret, oauth_token, oauth_token_secret)
 for user in accounts_special:
     tweets_from_him = twitter.get_user_timeline(screen_name=user)
     for tweet in tweets_from_him:
-        if str(tweet['text']).beginswith('RT'):
+        text = str(tweet['text']).encode('utf-8')
+        if text.beginswith('RT'):
             n=1
         else:
             helper.handle_tweet(tweet)
