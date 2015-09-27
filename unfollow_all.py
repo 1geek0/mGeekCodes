@@ -14,6 +14,7 @@ followed = twitter.get_friends_ids(screen_name='mGeekCodes')
 following_me = twitter.get_followers_ids(screen_name='mGeekCodes')
 
 for user in followed:
+    print user
     if user not in to_be_followed:
         if user not in following_me:
             twitter.destroy_friendship(screen_name=user)
