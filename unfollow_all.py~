@@ -22,5 +22,5 @@ for user in followed['users']:
 for user in to_be_followed:
     twitter.create_friendship(screen_name=user)
 for user in following_me['users']:
-    twitter.create_friendship(screen_name=user['screen_name'])
+    twitter.create_friendship(screen_name=user)
 

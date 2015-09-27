@@ -34,15 +34,6 @@ tweetedMmap = mmap.mmap(tweetedFile.fileno(), 0, access=mmap.ACCESS_READ)
 all_followed_Mmap = mmap.mmap(all_followed.fileno(), 0, access=mmap.ACCESS_READ)
 #current_followed_Mmap = mmap.mmap(current_followed.fileno(), 0, access=mmap.ACCESS_READ)
 
-banned_accounts = ['todocoders', 'nodenow']
-naughty_words = [" -RT", "HackerEarth", "Looking for", "Jobs", "job", "prizes", "todocoders"]
-good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23CodeALot", "%23CodeHard", "%40mGeekCodes"]
-filter = " OR ".join(good_words)
-blacklist = " -".join(naughty_words)
-keywords = filter + blacklist
-
-twitter = Twython(app_key, app_secret, oauth_token, oauth_token_secret)
-
 #Setting Twitter's search results as a variable
 search_results = twitter.search(q=keywords, count=100, result_type='mixed')
 try:
