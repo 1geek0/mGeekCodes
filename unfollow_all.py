@@ -10,11 +10,17 @@ twitter = Twython(app_key, app_secret, oauth_token, oauth_token_secret)
 
 to_be_followed = ['nilaydreams', 'ashwinkandoi', 'UXHow', 'tech_souls', 'NashikNews', '_vipuls', 'TEDxBhilwara', 'prabha_satya', 'TEDchris', 'iweapp', 'BethanyJana', 'join2manish', 'gvanrossum', 'rodinhood', 'yashrajx', 'nancykatyal', 'rashmibansal', 'Joi', 'cameraculture', 'praveengedam', 'mattcutts', 'KoustuvDasgupta', 'Innometheus', 'AbhiSuryawanshi', 'iamnirman', 'inktalks', 'sohil_4932']
 
-followed = twitter.get_friends_ids(screen_name='mGeekCodes')
-following_me = twitter.get_followers_ids(screen_name='mGeekCodes')
+followed = twitter.get_friends_list(screen_name='mGeekCodes')
+following_me = twitter.get_followers_list(screen_name='mGeekCodes')
+print(followed['users'])
+for user in followed['users']:
+    print user['screen_name']
+    if user['screen_name'] not in to_be_followed:
+        if user['screen_name'] not in following_me['users']:
+            twitter.destroy_friendship(screen_name=user['screen_name'])
+            
+for user in to_be_followed:
+    twitter.create_friendship(screen_name=user)
+for user in following_me['users']:
+    twitter.create_friendship(screen_name=user)
 
-for user in followed['ids']:
-    print user
-    if user not in to_be_followed:
-        if user not in following_me:
-            twitter.destroy_friendship(user_id=user)
