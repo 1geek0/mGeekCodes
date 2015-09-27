@@ -273,3 +273,310 @@ Saturday night is a good time for coding.  #coding #programming
 Beautiful day for a #Hackathon - happy coding! #Developer #FinTech #coding @DevNetwork_ @SwattonOnTech http://t.co/vyX5sZXjrK
 Thanks @megthesmith @hellofreebird @amanda_teekay for @LLCHamOnt #llcCodeDay! Feeling more confident in #coding now. http://t.co/7CYuxXXkWE
 How Chromium Works #coding - http://t.co/VgGqNP6pNg
+I LOVE #STEM and #coding. Don't get me wrong...but I would love for curriculum to be transformed to promote #authentic thought #development
+Behind the Google Brand Design: https://t.co/qgO4s3Zfrc http://t.co/tVmG4bHTqf
+Breakdown of the speech that won the 2015 World Championship of Public Speaking: http://t.co/XLlgurr6Hx
+The tools designers are using today: http://t.co/xIOGdU9U7R @framerjs @sketchapp @InVisionApp http://t.co/gaAHxUr0Zs
+Is Product Management being the CEO of your own product? http://t.co/hVtzkEHpjV
+Which reads faster, Chinese or English? http://t.co/GQ303joBBy http://t.co/wDBKP7tPbb
+Some days I turn to @UXYoda "User error it may be. But your responsibility it is."
+UX (alone) wont save you. http://t.co/0Cyo3jKX35
+Personas tend to be descriptive - Predict ahead of time whether somebody is going to be a user: http://t.co/qjY1udollf
+Apple's iPad Pro is the best illustration of the new Microsoft - http://t.co/a2yT1OllDl
+What Super Mario Taught Us About UX: http://t.co/PvxaJXz0AF http://t.co/kW2w6qLM3u
+Designers Should Design, Coders Should Code? http://t.co/SxsmJ6aOZF http://t.co/OePApR3X3C
+If you invest in @framerjs you’re investing in the most transferable skill on the internet: Javascript. http://t.co/C0dIdgn3yT
+One of the biggest mistakes I've made in my career: Designers and Code http://t.co/71YUNuaQv8 http://t.co/17OytpeH96
+Listen to this now: What We Mean by Meaning http://t.co/VbUKrX3cnp http://t.co/PpoYqgU3r5
+There is a difference between knowing the path and walking the path. http://t.co/g4dzoPWJzL
+Daily. UI. Movement. http://t.co/tsscINJK2J http://t.co/4W5WPm8QRK
+Your daily dose of design inspiration: http://t.co/MOG53Jd1QG http://t.co/9AwmTTKOs4
+Restrictions force us to consider what is important - Instagram and the power of Square: http://t.co/P6l1eIAUPt http://t.co/yKuXtr8bPH
+6 TED Talks Every UX Professional Should Watch http://t.co/n1fgqbruRV http://t.co/EsjJ0e3Fvz
+The history of digital icons in a responsive infographic: https://t.co/XNJGqoXYVN  http://t.co/GaYhC3j5DP
+@z0rt45 http://t.co/ICbqGXmYzB
+This one is interesting because you're creating the waveform directly in bash. Inspired by http://t.co/BaZs5lbCVz
+for n in 30 41 41 38 41 9999 31 30;do for t in {0..2200};do [[ $(($t%$n)) == 0 ]]&amp;&amp;echo -n $'\xb0'||echo -n $'\x80';done;done&gt;/dev/dsp # snd
+http://t.co/35bPBSQIGT # Hex color value display function in vim.
+War on FTP. Our kids are at risk of inheriting bad protocols.
+@fetoxm1 @gominokouhai And date doesn't talk directly to an atomic clock. Sure, use ntp, but this is just another of those neat CLI things.
+cat &lt;/dev/tcp/time.nist.gov/13 # Fetch the current time in bash using this special device path hostname/port. Thx @fetoxm1
+@mrhansolo Thanks, that means a lot coming from you.
+&lt;Ctrl-x + (&gt; keystrokes go here. &lt;Ctrl-x + )&gt; # This will create a readline macro of whatever you type. Run the macro with &lt;Ctrl-x + e&gt;
+Sheesh, too many mistakes lately. Sorry about that. I'll repost the correct one.
+&lt;Ctrl-x + [&gt; keystrokes go here. &lt;Ctrl-x + ]&gt; # This will create a macro of whatever you type. Run the macro with &lt;Ctrl-x + e&gt;
+HISTCONTROL="ignoreboth" # In bash, this sets the history to ignore commands starting with spaces and duplicates. May already be set.
+rpm -qa --last | head # Show the last 10 packages installed on an RPM based host. Thx for the correction @ThomasConstans
+@ThomasConstans Thanks. I'm glad someone is paying attention.
+rpm -qa --last | tail # Show the last 10 packages installed on an RPM based host.
+{xsel -b || pbpaste} | sort # Send paste buffer into sort. Because your {Cloud} based document editor lacks this basic functionality.
+@missingsnowman Actually, I messed up there. The cat should be cat - *access_log otherwise it would get the *.gz files again.
+zcat *access_log*.gz |cat - *access_log* |awk '$9==400||$9==413{print $1}' |sort |uniq # Show remote hosts who received HTTP 400s or 413s
+@stevecheckoway Nope. On GNU tar at least, you can leave the compression flag off and it will auto detect based on the file name.
+tar pcvvf Stash{.tar.xz,} |tee Stash.idx # Create tar called Stash.tar.xz of Stash and use 2 v options to long list and write to idx file
+Interesting and #geeky retweets from @mGeekCodes seems a bot, but a helpful one :)
+Guess what!? ;) @oneplus #OnePlus2 For @sachinpachorkar !! Who says hacking is bad :p http://t.co/S8r3x45UEE
+We'll be counting people this time too and will be posting updates at @tech_souls  and the dashboard!! http://t.co/HMfMNbk3aI #Ashioto
+#Ashioto was successful at #KumbhMela .Thanks to @darnishness @ashwinkandoi @MITKumbhathon @raskarmit. #KumbhThon #Nashik
+#Ashioto implemented with greater force at #KumbhMela now ! http://t.co/HMfMNbk3aI #KumbhaThon
+#awesomeadmin #FeelsSoGood Finally ashioto is getting some exposure :) https://t.co/NRatCbsABB
+Planning for next #ShahiSnan @ #KumbhMela #ItGetsBigger
+Step counting successfully tried at #kumbhmela.Thanks @maheshgujrathi @praveengedam @ashwinkandoi @raskarmit #KumbhMela2015 @MITKumbhathon
+RT @join2manish: More power team #Kumbathon by #MIT in #Nashik
+awesome job at #Kumbhmela
+@MITKumbhathon
+@ashwinkandoi
+@nilaydreams
+#Culture…
+Two days to go for #ShahiSnan #Kumbh #KumbhThon #kumbhmela. Damn excited!!! Results 18 months of efforts by @MITKumbhathon would show up now
+RT @indianbizparty: Listen to a 14yr old techie's story-#NilayKulkarni - CEO and Founder #GeekyDreams - #IndiaCanInnovate : showcased only …
+RT @Inno_Fest: 14 yr old speaking on the problem he identified at Kumbh mela @nilaydreams #live #IndiaCanInnovate
+RT @explara: Innovation starts young, doesn't it? @nilaydreams the young technologist talks about Geeky Dreams Inc at @inno_fest #IndiaCanI…
+Happy to be featured!! @ashwinkandoi @ParikshitRaje @HarshAgarwalX Thank you so much. https://t.co/ZeQ3nsjqYL
+Hacked the #OnePlus2 referral system. They should think about a stronger system now. Started from 1.8m today morning http://t.co/7SxSAbSUkv
+RT @ashwinkandoi: @nixxin check a 15 year young kid hacks the system for one plus 2 @nilaydreams he deservesfree phone from #OnePlus2 http:…
+RT @TEDxBhilwara: The near the date, more exciTED we are.... #TEDxBhilwara  26th july! TED #TEDTalks  #TEDx http://t.co/hnSKJTbhLx
+#exciTED https://t.co/30fNz75MPp
+RT @TEDxBhilwara: Speaker#7 Nilay Kulkarni, 14 year old programmer has idea about larger impact of technology on people and society. http:/…
+Something to do with us ;) #Ashioto #TEDx #exciTED https://t.co/YwIInVIeiM
+Fedora 22 released! http://t.co/VkwUd65Ixq
+Debian 8.0 "Jessie" released!
+Ubuntu 15.04 "Vivid Vervet" released!
+Ubuntu 14.10 "Utopic Unicorn" released!
+Red Hat Enterprise Linux 7 is now out!
+Wow, so Apple Macs are made on Windows? http://t.co/fOqZUJezGj
+Linux Mint 17 "Qiana" MATE and Cinnamon editions released!
+At 16:53:20 GMT today, Unix time will pass 1400000000 seconds since 01-01-1970 00:00:00 GMT. Type date +%s to find the current time!
+Ubuntu 14.10 code name announced: Utopic Unicorn.
+The #SELinux Coloring Book by Dan Walsh &amp; Máirín Duffy: http://t.co/49U2VtTLbT 🎨
+#Ubuntu 14.04 LTS "Trusty Tahr" released! http://t.co/eBAhVgoE4A #Linux
+RT @Ekushey: The Heartbleed bug is massive. Patch your servers immediately, then revoke and reissue your SSL certificates.
+#Fedora 20 "Heisenbug" released! #Linux
+US Navy’s newest warship is powered by #Linux: http://t.co/g6l0Dyu8Oa
+Ubuntu 14.04 LTS code name revealed: Trusty Tahr.
+Ubuntu 13.10 "Saucy Salamander" for desktop, server, cloud, and phone released! #Ubuntu #Linux
+The #Fedora 20 release name is: Heisenbug. #Linux
+Seth Vidal, the creator of "yum" package management system was killed in a tragic hit-and-run accident yesterday. He was only 36. #RIP.
+Fedora 19 "Schrödinger's Cat" released! #Fedora #Linux
+Linux Mint 15 "Olivia" released! #LinuxMint #Linux
+@harmsfam12 We appreciate the question, but we don't have anything to share about that.
+@ScooterSpeaks Hi Scooter! An Android Pay specialist would be happy to help you out. Request a call/chat here: https://t.co/jCqARXLIGS.
+@pinhchen Thanks for the update. Let's connect you to an Android Pay specialist for next steps: https://t.co/77M7NkREXZ.
+@lazaunjobe Hi there! Your card issuer determines if &amp; how many past transactions you see in Android Pay. Try contacting them for more info.
+@pinhchen Oh no! Next time you have trouble using Android Pay try these tips: https://t.co/DXZ1phZjHf. Hope that helps.
+@stevepenna Thanks for the update. Let's connect you to an Android Pay specialist for next steps: https://t.co/NayJp4ZEOL.
+@stevepenna Ah, gotcha. In that case, let's try the steps from this forum post: https://t.co/4eooIwAFwn. Let us know if those help.
+@techie_ta Thanks for that. Can we try restarting the watch and phone if that hasn't already been done? Keep us posted!
+@stevepenna Oh no! Let's try restarting your device to see if that helps. Let us know how it goes.
+@chrizzle_f Thanks for the heads up! We'll be sure to pass this along.
+@harmsfam12 Thanks for your interest. None of our Android Wear partners have announced any devices with NFC.
+@techie_ta Hi Thuan. What phone and android wear device are you using? Can you also share what version you're on?
+Don’t miss your date! #AndroidWear’s at-a-glance appointment reminders help keep you prompt. #WeekendWear http://t.co/NggWbEtBJq
+@andrewt522 Thanks for the update Andrew! Be sure to reach out to us if you run into that issue again.
+@Techjourney Let's connect you to a specialist for some clarification. Request a call/chat here: https://t.co/szb5phbpkY.
+@Techjourney We're referring to the new Google Wallet app: https://t.co/GtPOLrEaVk. Is that where you're looking for transaction details?
+@Techjourney Hmm, you can view all of your transaction details at the bottom of the screen in your Wallet app. Does that help?
+@Techjourney Hi there! We're not quite sure what you mean. Could you give us some more info? We'd like to help.
+@GalacticNinth Hey Joel! Check out which merchants accept Android Pay here: https://t.co/Afhy5chEym. Does that help?
+@harmsfam12 Hi Ana! Android Pay is only available on Android phones running Kit Kat (4.4) or higher w/ NFC and HCE support. Hope that helps.
+NodeCellar: #application with Backbone.js, #Twitter #bootstrap , #nodejs , Express, #MongoDB http://t.co/ZLuOJUMhnb http://t.co/2sg3XXDECp
+RT @Inc: How technology can save your work-life balance http://t.co/v78fAezm0g http://t.co/33z1RYkj9T
+Why R? The pros and cons of the R language #bigdata #bigdataanalytics #coding http://t.co/GnaJnhfZLT http://t.co/2T958mg0ny
+#nodejs  vs Traditional Scripting Languages #php #coding #code http://t.co/XcbSd4TQee http://t.co/xis1EEEIb3
+#AngularJS templates #apps #javscript #coding http://t.co/9x3QzupnkT http://t.co/nbcnlf6mJ7
+@techjunkiejh Just venting!
+#scrum #agile the chickens are running the farm!  The pigs are getting slaughtered.  That's the state of IT right now!
+#innovation Apple didn't invent the touchscreen.  But they did it right! Execution is often overlooked. #startup #entrepreneur
+Handling Session timeout &amp; other server #http errors in #ajax #javascript #coding http://t.co/kCS209mOFR http://t.co/IKG1VyF7I1
+#nodejs Authentication Using Express, #Amazon EC2 And #MongoDB #cloudcomputing #JavaScript http://t.co/1BMMHQr1Qs http://t.co/9hjGbFHHH8
+Learning #apachespark using #python : Basics and #application #BigData #DataScience http://t.co/LxfzpA6mMy http://t.co/BCklBm1qjk
+Form Validation in #nodejs with Express-Validator #JavaScript #coding http://t.co/bdnPgnUH74 http://t.co/jExmU4R4N7
+Adding #Azure Active Directory OWIN #code into an #AngularJS /#aspnetmvc  #apps Authentication http://t.co/6OSKa4hwLG http://t.co/2nXyPXSYDf
+CoolaData offers behavorial #analytics as a clouds service #cloudcomputing #BigData http://t.co/KVXTZ57ZfG http://t.co/2WZbyGRWyw
+#nodejs : anatomy of a net connection #javascript #coding #code http://t.co/FScXty0Y6e http://t.co/itJWR8Fcwi
+Bootstrapping #AngularJS #apps #javscript #coding http://t.co/ZQtWhN1zQP http://t.co/Vd1Ma29A8z
+#scrum #agile #PMP #projectmanager TLC - Waterfalls https://t.co/se1ykhHKpK via @YouTube
+Implementing Singleton in #javascript #coding #jquery http://t.co/IGD8Z6HrfQ http://t.co/uBJFpcyGhq
+A Closer Look at #Hive, #HFDS and Cloudera CDH3 #datascience #data #BigData http://t.co/Adqe6AdVNs http://t.co/VdOT1kOI4u
+Thanks for the CodeSpells shoutout on http://t.co/Mdcr6Xy0qz! #coding #steam
+Real-Time Geolocation Service with #nodejs #JavaScript #coding http://t.co/l6VoN1OR5E http://t.co/4H7kv74dau
+Business Council calls for #coding to begin with toddlers | ZDNet http://t.co/FRPLYdVq5h
+#dataanalytics scenarios #powerbi #datavisualization #BigData #Hadoop #machinelearning #IoT http://t.co/5Z1KCcuzkw http://t.co/QAvINrs897
+Demystifying #Apache #Hadoop in 5 Pictures #BigData #database #data http://t.co/Gu62pysRS5 http://t.co/RyF9mzGM5X
+Wanted: experienced #coder for our Sr. #Java #Developer position (Warren, MI) http://t.co/xevEOaeaRz #GMjobs #techjobs #ITjobs
+Nothing is impossible, except for maybe bug-free software! #coding
+Take a hour a day to learn #coding for mobile apps or website online at http://t.co/rswp43irEl it's free, we have! http://t.co/73zQiuMyWt
+Take a hour a day to learn #coding for mobile apps or website online at http://t.co/SjWnQ18nKN it's free, we have!
+Take a hour a day to learn #coding for mobile apps or website online at http://t.co/i5MBf2tsuV it's free, I am doing it now
+Take a hour a day to learn #coding for mobile apps or website online at http://t.co/BqmCnp6l6Q it's free, we have!
+RT @AuTranshumain: How Tech Could Improve Our Memories http://t.co/ungTmv4IoM #DigitalHealth #NeuroScience http://t.co/Pwmi2lqFfw
+RT @pewinternet: 23% of those 18 to 29 who are online say they use online discussion forums such as reddit. http://t.co/gw3gV6zjpC http://t…
+RT @Jonokerkin: #Docker and #DevOps: The Skills Needed to Get Ahead in the Cloud Market | SmartData Collective http://t.co/3kGlsiPIkW http:…
+RT @VentureBeat: Ride-sharing apps want to replace private car ownership in Vietnam http://t.co/ipuxfV3And http://t.co/NGAXqOWK39
+#nodejs Authentication Using Express, #Amazon EC2 And #MongoDB #cloudcomputing #JavaScript http://t.co/ER2HZfUcV6 http://t.co/VTzR5siM1B
+RT @VentureBeat: If your startup team isn't on-track, try this http://t.co/w0a9pMsyg3 http://t.co/20Yo6tKrhR
+RT @Makerspaces_com: Mechanical Horse at #MakerFaire.  Makers are capable of amazing things. Let's encourage making.  #WMF15 #makered http:…
+RT @hackaday: #WMF15 @Raspberry_Pi kinetic art in action, Zone 1 @makerfaire  https://t.co/W1f4BIxptb
+Integration of #elasticsearch with #apachespark #machinelearning #BigData http://t.co/ayCKnrPCgQ http://t.co/uC9DN5mt9h
+An education for the 21st century means teaching coding in schools http://t.co/tjyujzt3LJ #coding #leonsterling http://t.co/n618ghuIE7
+An education for the 21st century means teaching coding in schools http://t.co/YhfbOMsgYy #coding #leonsterling http://t.co/Qq3CTEjIjL
+An education for the 21st century means teaching coding in schools http://t.co/eXIgwIAm9g #coding #leonsterling http://t.co/AC6WmwqD6b
+Considering 10GE #Hadoop clusters and the #network #networking #BigData #datascience #data http://t.co/l0OwZXGCbO http://t.co/SH6XRZzuYM
+RT @VentureBeat: Office 2016’s Smart Lookup searches Bing for relevant websites, images http://t.co/PAth2pVq2j http://t.co/4pXNCAeBGp
+#JavaEE Read / Write CSV file in Java  #data #Java  #coding http://t.co/c8vHvnWfl2 http://t.co/1ItjCaFdsg
+Amazon #Prime members enjoy the read: Zen #Coding for #free with their #FREE #KINDLE #DOWNLOAD http://t.co/tUhDzqLX25
+RT @pewinternet: Cell owners &lt;50 most likely to never turn phones off, while those 65+ most frequently do http://t.co/UOQrJzuXQK http://t.c…
+@robert_kalman @agoramobile Yes! Vizwik is incredible for grades 5-12 especially introducing girls to #coding visually! @learningcode #K12
+#AngularJS services #apps #javscript #coding http://t.co/JYWt9vwHtu http://t.co/eiYEqdpwHV
+The Motivation for a Monolithic Codebase #coding #google #video - http://t.co/ApuFDAIPZY
+#nodejs in #Microsoft #Azure #cloudcomputing #javascript http://t.co/0U5Bt0ID7n http://t.co/6V5TIlFkbE
+Worked overtime until almost 11pm today; hopefully I have fixed what I needed to fix. Back home now waiting for Pizza Hut to deliver #coding
+At #UHG, we offer a unique environment for #coding roles to flourish. Read more about our culture here: http://t.co/mXA6O9wyog #python
+Editable Grid with DHTMLX and #nodejs #JavaScript #coding http://t.co/HNSPx7QotW http://t.co/76owErIW83
+12 sites that will teach you #coding for free http://t.co/ghxRkHM73Y http://t.co/hNmUuXCI1D
+10 Ways To Complement the Enterprise RDBMS Using #Hadoop #database #data http://t.co/NfN4UymcDJ http://t.co/0mL2YfkS3N
+10 Essential #SublimeText #Plugins for #JavaScript #Developers http://t.co/rGxI3QuN5c #coding #IDE #API #devs #JShint #npm #json #java #os
+Understanding view in Backbone.js #backbonejs #javascript #code #coding http://t.co/evoQyYICUc http://t.co/F2mspN4F7X
+Real Time Activity Stream on #cloud Foundry with #nodejs , Redis and #MongoDB #javascript  http://t.co/hnOJzWqnYq http://t.co/LNhc22RGTi
+10 Essential #SublimeText #Plugins for #JavaScript #Developers http://t.co/PBSZLDvnhK #coding #IDE #API #devs #JShint #npm #json #java #os
+Educational Tools for Minecraft Kids http://t.co/TPk2ycA3RQ #Minecraft #Education #coding http://t.co/ndKt1S8lmt
+Combining #JavaEE and #nodejs #javascript #coding #code http://t.co/GGcXZJmWwH http://t.co/WoPLwCyXk3
+How we ended up with #Microservices #api http://t.co/BnphCF68yZ http://t.co/oyVZW0vLM8
+#angularjs : why Objects are better for $scope... #javascript #coding http://t.co/WZYQ7JsgID http://t.co/9P69B5IEQi
+#angularjs : why Objects are better for $scope... #javascript #coding http://t.co/WZYQ7JsgID http://t.co/9P69B5IEQi
+RT @verge: Fire robots, drone battles, and 3D printing — add therealverge on Snapchat for today’s story http://t.co/2CZbio8BKI
+#nodejs Authentication Using Express, #Amazon EC2 And #MongoDB #cloudcomputing #JavaScript http://t.co/dtnIMmYve9 http://t.co/EcrR1Knkgf
+RT @eggheadio: angular-formly: Extending Types by @kentcdodds #free #AngularJS http://t.co/bmVl7cXGEu
+RT @verge: China's replacement for Windows is an XP ripoff http://t.co/TRNOinMtQY http://t.co/VpKepalDC1
+RT @Geezwild: AngularJS Framework : Creating a new service using Factory http://t.co/PZCxxIuJVI http://t.co/VEemNngoSl
+RT @Geezwild: AngularJS Framework : Routes V - details page http://t.co/rE0ajjoBXo http://t.co/R60Zee2ln2
+RT @Geezwild: AngularJS Framework : Routes IV - navigation between views using links http://t.co/OndbHg0brb http://t.co/rPTgiDGLUy
+RT @Geezwild: AngularJS Framework : Routing III - Extracting and using parameters from routes http://t.co/VqLPCQCaC7 http://t.co/pOU3l6JbFy
+RT @TheNextWeb: Ola mobile taxi app releases its API to popular brands and developers http://t.co/b2b3RZRelj http://t.co/TVYFBGw7Mk
+RT @pewinternet: 77% of social media-using teens say people are less authentic and real on social media http://t.co/vRoZBXhPHV http://t.co/…
+RT @PHPDojo: Shopping List with AngularJS, PHP and SQLite http://t.co/uWQj7RvGpZ #php http://t.co/Kn7d4gIJBg
+RT @nodenow: Using #React.js &amp; RxJS to Create a Scroll Table with a Dynamic Width http://t.co/qRZ99nxRqV #JavaScript #WebDev http://t.co/Wc…
+RT @PatriceTruong: Wait what? Mobile browser traffic is 2X bigger than app traffic &amp; growing faster http://t.co/q51g7V2T1D @VentureBeat htt…
+RT @webdesignledger: Designing Icons for Detailed Product Features http://t.co/SABbAM6XWn http://t.co/zOuISZTYFJ
+RT @VentureBeat: Firefox 41 arrives with Hello instant messaging, profile photos http://t.co/hRrcVF4p8K http://t.co/SybAqvixto
+RT @LarryGMaguire: Relaunching Your Site? Don’t Even Think About It Without A Solid SEO Game Plan! http://t.co/tk4vPsWrrv #SEO
+Mastering #BigData to Drive Great Customer Experience http://t.co/z0ZIli8lD2 http://t.co/xjDYJeHHpO
+RT @nodenow: Locally test your #npm modules without publishing #nodejs #js #codingisfun http://t.co/wAi7uhPySI via #TweetALink http://t.co/…
+RT @PatriceTruong: RT @RKWDC 10 Essential Tools for #Startup Growth Hackers http://t.co/Vww8mPLMPX via @Inc #growthhacking http://t.co/X43w…
+RT @ForbesTech: Apple is serious about building an electric car: http://t.co/H4oLO1TuwD http://t.co/hJiS7TnxfW
+RT @webcodegeeks: #HTML5 #Boilerplate Framework Tutorial http://t.co/I9e4UDLfcv http://t.co/wX1aPl2Ccb
+RT @techinasia: Love in the era of iPhone: smashed 6S leads to questions about modern romance in China http://t.co/rwM0ijPz9N http://t.co/z…
+NodeCellar: #application with Backbone.js, #Twitter #bootstrap , #nodejs , Express, #MongoDB http://t.co/7mpyFnTFrL http://t.co/M5TBshXDmz
+RT @techreview: Bitcoin Is Left a Wallflower as Banks Borrow Some of Its Features to Boost Efficiency
+http://t.co/r5WdDkXJqj http://t.co/Bx…
+RT @BestOfCloud: #Azure: Did you know? #PowerShell Automation http://t.co/ptKX2udz0N via @Perficient_MSFT
+RT @therealdrsean: Online dating danger: How old is that person's photo? About 2 years. My latest @PsychToday https://t.co/OzCrYJiA7o #onli…
+RT @kesbutters: A Guide to Periscope – Twitter’s New Live Streaming App: http://t.co/k8vFuukVCm #Periscope
+RT @kesbutters: Tips on Securing Your Mobile Device: http://t.co/iEfWRYWrAR #MobileSecurity http://t.co/BT7bLi0o6o
+RT @Datafloq: How to Encrypt Data in the Cloud to Stop Mischievous Hackers - http://t.co/L6T5XN7wRd #BigData http://t.co/4KhwLANFpY
+RT @Inc: Here's What Your IQ Score Really Says About You @PeterSMagnusson via @Quora http://t.co/KAWU0dp1GM
+RT @VentureBeat: Samsung says startups are its secret sauce http://t.co/pZ1KPVcaRS http://t.co/BGK0kzD7z4
+RT @javacodegeeks: #jQuery UI Datepicker Example http://t.co/s1TtWyyLBa http://t.co/cmdjFlsYFE
+RT @kesbutters: Social Media Guidelines for Employees: http://t.co/gzhComXxfv  #SocialMediaGuidelines #SocialMedia http://t.co/LlyaIOtLXu
+RT @QualarooInc: 3 Growth Hacking Strategies for Bloggers to Quadruple Their Blog Traffic without SEO https://t.co/aT79sGyW8W http://t.co/V…
+RT @AngulaRRJS: Advanced Filtering with the Filter Filter - AngularJS Video Tutorial #pro http://t.co/hxI7qNiVDw http://t.co/TEPSctaecg
+RT @programmableweb: Go language is the leading language for infrastructure software
+http://t.co/sPDbXb3ppG
+
+#golang http://t.co/eZK4kacDyf
+RT @TheSuccessKing: 5 Self-Defeating Messages to Immediately Stop Telling Yourself http://t.co/DCyDkIT14t http://t.co/p1lQlqJnFy
+RT @CNET: Quickly create a VPN with the Hotspot Shield browser extension http://t.co/GhdK5Wczfh http://t.co/k78ORDhbSh
+RT @kesbutters: Conor McGregor: How To Pack A Marketing Punch: http://t.co/DrZ0om99YS  #ConorMcGregor #Marketing http://t.co/JCqaJpNbTb
+RT @QualarooInc: How to go upmarket and grow your revenue by 20x https://t.co/YKLlVkUAKa http://t.co/1eBd8aGn8J
+RT @_ericelliott: Composition with prototypes. You'll never want to use `class` again. Learn it at @webdirections, Sydney:
+https://t.co/a2w…
+RT @pinaldave: #sql #SQLServer Interview Question of the Week #038 – What is Left Semi Join Showplan Operator? http://t.co/aL8yarnXzD #SQLA…
+RT @nodenow: Useful #Javascript debugging tips you didn´t know 
+
+👉 https://t.co/2YKYKilBB0
+
+#debugging #developer #iloveJS #frontend #BackE…
+#Hadoop needs #ApacheSpark #BigData to light the way http://t.co/rMayQRMMVT http://t.co/GZTxJdlAhj
+RT @yannickdot: This is getting real. Coding on iOS and Android at the same time in realtime!
+#reactnative #ios #android #javascript http:/…
+RT @ManzellaMktg: Heineken is using Facebook and Twitter advertising to buy users a beer. http://t.co/s1WG7KYY3e
+RT @shanijaf1: Apple's DMV talks point to self-driving car ambitions - http://t.co/jbQ2sJqyXo #GoogleAlerts
+RT @MacObserver: Fake Apple Stores Continue to Flourish in China http://t.co/u3zYayFdV9 http://t.co/8dAaK15D2K
+RT @Javascript_Top: SVG Flying Saucer http://t.co/l2m66I70Qj via @allsecretcoding http://t.co/aBrrSNRFoS
+RT @Javascript_Top: Wakeskater Studio Indie Game Development: Making a Real Time Multiplayer O... http://t.co/NBoA1Yw57o via @WakeStudio ht…
+RT @Javascript_Top: Elastic Progress http://t.co/vj7MfYTR4A via @FrantiC http://t.co/gyvPgfCAtk
+RT @Javascript_Top: Creating a Book Club App With AngularJS, Stripe and Stamplay http://t.co/w9c9wMrXud via @The_AdrianG http://t.co/KglTyh…
+RT @formvalidation: How to make a responsive sidebar navigation with #CSS and #Javascript http://t.co/6wb3XKQgfH #rwd http://t.co/QZhC6ihu7b
+RT @flarrio: Have you realized the power of elastic data warehouses? http://t.co/CQwYeIDGJE #bigdata #analytics #tech #flarrio http://t.co/…
+RT @richxiong: Turning the Big Data Headache Into Big Rewards - http://t.co/1OmLXlhYC4
+
+#bigdata #analytics #datascience http://t.co/URiRls…
+RT @GUNdotIO: Why side projects will determine the course of your career - https://t.co/ur9s0G0mK0 #developer #hacker http://t.co/qZd84azMp7
+RT @GUNdotIO: Two steps to work remotely and travel the world https://t.co/vGfHtXvBmq #nomad #freelance #hacker #remote http://t.co/IvATToN…
+#IDE for who? Finally cracked Hello world! with command prompt 😁 #coding… https://t.co/Ftpi4P9B9m
+Handling Session timeout &amp; other server #http errors in #ajax #javascript #coding http://t.co/KsJuOx7Y1E http://t.co/zaiN41EQm2
+@WakeStudio lol
+@WakeStudio lol u r funny.  Thanks for the follow
+Classroom For GitHub | Your Course Assignments On GitHub @BTCTN https://t.co/Q2ntEEkmWx #Coding #GitHub #Education
+Resumable #VIDEO Uploader in #nodejs #JavaScript #coding http://t.co/ftVHt2uKo8 http://t.co/PGGeaw3pDy
+#nodejs : anatomy of a net connection #javascript #coding #code http://t.co/6LNKbaWkP9 http://t.co/Bh2lNjVbes
+Serious @nytimes wisdom as cities, states &amp; even countries seek to be innovators in #coding. http://t.co/cPclKMDEmt http://t.co/8DyeiNbWyz
+RT @6StartUps: Augmented Reality Has An Image Problem http://t.co/Kv4okIlbA0 #startup #cofounder
+Real Time Activity Stream on #cloud Foundry with #nodejs , Redis and #MongoDB #javascript  http://t.co/X6knezEm2C http://t.co/rN1qJUgKyW
+16 Best Product Hunt Finds for Entrepreneurs http://t.co/IVMq05PUdi #design #web #coding
+RT @CsharpCorner: Show Data in Grid Format Using #AngularJS and #WEBAPI by @Anubhavch689 CC @CsharpCorner http://t.co/7kRfgQe6Rh http://t.c…
+Thanks #LosAngeles teachers for today's @TeachCode @codeorg workshop @PartnershipLA #coding #CSEquity #LA @LASchools http://t.co/IL5jG82MVp
+Real Time Activity Stream on #cloud Foundry with #nodejs , Redis and #MongoDB #javascript  http://t.co/0WgQZJcUKc http://t.co/NwohcGlfyL
+Cancelling Route Navigation in #AngularJS #javascript #coding http://t.co/5wM62Jrf7X http://t.co/XcAhF8s89b
+Got a new #Kindle for the holidays? We have just the book for you! Zen #Coding http://t.co/nqg2REMq8u
+#AngularJS services #apps #javscript #coding http://t.co/HhVSRQcKQT http://t.co/bcsSd18r99
+RT @MagicalUI: Transition from Server Side to Single-Page Applications http://t.co/EgXawjogU2 RT @lelong37  #mvc #spa #mvvm http://t.co/eIC…
+#chatroulette with #nodejs socket.io &amp; OpenTok #javascript #coding #code http://t.co/fujJDNRRFA http://t.co/DGvWkXZzrj
+Job Scheduling with Redis/#nodejs  #javascript #coding #code http://t.co/ZO24BGKGnA http://t.co/RzPSKCRxrT
+#nodejs Performance Tip of the Week: Event Loop Monitoring http://t.co/qDShD31nQM  #JavaScript #coding #Programming http://t.co/64jdVjFWp7
+Future-proofing Your #apps : #cloud Foundry and #nodejs #javascript #coding http://t.co/pDtp50lCol http://t.co/TPunReJMpY
+RT @allsecretcoding: Making of a Fully Working Toaster with #SVG and #Javascript. Courtesy of @ChrisGannon http://t.co/ILjlGfKh3I http://t.…
+Online Event Calendar with #nodejs #JavaScript #coding http://t.co/QTeUNRM4GF http://t.co/nDe71xthmy
+#programming with #Minecraft #coding #gamedev http://t.co/vuK1XsPAcX http://t.co/KWMkH5WOyj
+New lessons added https://t.co/Kpit5wPg8c popular course for beginners. Unique approach. #coding #education #udemy #programming #schools
+#Microsoft's #CortanaAnalytics Looks To Simplify #BigData http://t.co/aiQ2vtqQPh http://t.co/NNz0joLkSX
+#nodejs in #Microsoft #Azure #cloudcomputing #javascript http://t.co/yw72R3udhQ http://t.co/TXtchSjRaj
+An #education for the 21st century means teaching #coding in schools - http://t.co/GrLhTi6thC
+#Coding #facebook for just $2.99 at #ebook #TripleClicks. http://t.co/KwRrEqe84s http://t.co/TNy0meRyaI
+#Coding #facebook for just $2.99 at #ebook #TripleClicks. http://t.co/dgbqlMQVv5 http://t.co/aySsn1qLbQ
+#Coding #facebook for just $2.99 at #ebook #TripleClicks. http://t.co/KwRrEqe84s
+@matt_clarkson I am planing to start #iOs apps #coding for 2016,  is #objectivC better for a start or should I jump to #swift ?
+#opensourceday is an extra program for kids to study more further than just a #coding, this program let kids explore more :)
+Building a #digital future: Should #coding be mandatory for every #schoolchild? http://t.co/lSVKcVworK via @ZDNet &amp; @ehaaramo
+Coding done for tonight? #developer #ajax #javascript #code #coding #programming #adwords #api… https://t.co/Lf81cS9QDQ
+#Coding is not only for boys, let's empower girls! @thepseudogeek @MakerMindAfrica @carole_kouam
+RT @MSDN: Here are the updates for Web Apps and App service environments in the Azure Preview Portal - http://t.co/c46Xb6BUPv http://t.co/7…
+Coding done for tonight? #developer #ajax #javascript #code #coding #programming #adwords #api… https://t.co/rvIbUPmna5
+#Oracle #cloud #database backup service http://t.co/3cNUZOlQqY http://t.co/N8ARxXUuwK
+Real-Time Geolocation Service with #nodejs #JavaScript #coding http://t.co/fQkepi24eu http://t.co/DrKSvSKyva
+i need help with some #coding for #TwitchTV using @twitchalerts chat
+Create #nodejs  web app #azure #MongoDB in Virtual Machine #Virtualization #JavaScript #coding http://t.co/qRLtnNkQ9T http://t.co/4nHBTNtPVw
+Single Page Application with #AngularJS , #nodejs .and #MongoDB #JavaScript #coding http://t.co/aEXZOTAgyx http://t.co/JwEAUz5OyW
+Sold again! Zen #Coding! #Best-seller rank just dropped to: 23079 for #Computers &amp; Technology. Amazing! http://t.co/JV9uWncAqi!
+Real-Time Geolocation Service with #nodejs #JavaScript #coding http://t.co/liOxhu8XYh http://t.co/zH9T1TOC3v
+Create simple RESTFul app with #nodejs Express, #MongoDB #JavaScript #coding http://t.co/TM5A2WOJF1 http://t.co/e6mbhTCOX4
+#Linux - /proc/self - useful for programming purposes to go to /proc subdirectory of current process #coding #programming
+To all parents: your kid has a device + web access?
+Have them learn to #code on @khanacademy for free. 
+No excuse!
+ #coding #education
+RT @Rygu: Let the machine do the work! Declarative versus imperative programming explained: http://t.co/P9sjXzOKt9 #reactjs http://t.co/jqP…
+#nodejs – under the hood #javascript #coding #code http://t.co/oACytvn23F http://t.co/hYXoz7UqnT
+RT @TechCrunch: The global gaming market is expected to rake in $86.1 billion in revenue in 2016 http://t.co/LiEarGuzCH http://t.co/KN353oU…
+RT @mashable: Facebook updates a long-ignored feature: http://t.co/yfnk5cvnAa http://t.co/nDcxv9XBZc
+RT @Java_RR: Red Hat: Full Steam Ahead for Node.js http://t.co/5i91KCXMao http://t.co/mAQyds5fqc
+RT @VentureBeat: One month with the OnePlus 2: The good, the bad, and the meh http://t.co/wiE7BxxSq8 http://t.co/QMz0fshnuS
+RT @HuffPostUKTech: Will Virtual Reality Replace the News? http://t.co/GcVNTYMxhO http://t.co/ZrWJtBhioF
+Online Event Calendar with #nodejs #JavaScript #coding http://t.co/mVp0RYjRva http://t.co/wr4ffZMhqD
+Classroom for GitHub #coding @rickweinberg  https://t.co/ylM1kUSf3S
+Video gallery is updated for my one year anniversary in coding software! One year people!.. #happy #coding #software https://t.co/HFY4In4UUW
+#chatroulette with #nodejs socket.io &amp; OpenTok #javascript #coding #code http://t.co/BjVg1QgNxi http://t.co/0dLDY6TXjx
+#JavaEE #Java MD5 Hashing &amp; Salting: Secure Your Passwords #encryption #cybersecurity #coding http://t.co/J2zWYo1swX http://t.co/j5MwLDHA4K
+#Microsoft 's #typescript 1.5 falls in line with ECMAScript #JavaScript #coding http://t.co/UnIxHzSuzq http://t.co/BjPxVxp7P8
+CoolaData offers behavorial #analytics as a clouds service #cloudcomputing #BigData http://t.co/TnVU1g92j0 http://t.co/AMQtuqI9v5
+Needing funding ideas for @SpheroEdu #coding #programming http://t.co/xEiivQuLgP
