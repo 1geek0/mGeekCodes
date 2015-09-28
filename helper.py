@@ -41,6 +41,7 @@ def handle_tweet(tweet):
                 print("New Tweet")
                 print(tweet['text'].encode('utf-8'), file=tweetedFile)
                 twitter.retweet(id = tweet["id_str"])
+                twitter.create_favorite(id = tweet['id_str'])
             else:
                 print("Banned Account")
     except TwythonError as e:

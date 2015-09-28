@@ -1,6 +1,7 @@
 from __future__ import print_function
 from twython import Twython, TwythonError
 import mmap
+import time
 #CSV files
 #Generic Path
 mGeekCodes_Path = '/home/admin/mGeekCodes/'
@@ -14,6 +15,8 @@ current_followed = open(mGeekCodes_Path+'current_followed.csv', 'a+')
 #Mmaps
 tweetedMmap = mmap.mmap(tweetedFile.fileno(), 0, access=mmap.ACCESS_READ)
 all_followed_Mmap = mmap.mmap(all_followed.fileno(), 0, access=mmap.ACCESS_READ)
+
+banned_accounts = ['todocoders', 'nodenow']
 
 #Twitter Credentials
 app_key = "nemYHwbENbRIsqhjECmMGS1wx"

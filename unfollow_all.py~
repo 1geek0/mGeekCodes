@@ -12,15 +12,12 @@ to_be_followed = ['nilaydreams', 'ashwinkandoi', 'UXHow', 'tech_souls', 'NashikN
 
 followed = twitter.get_friends_list(screen_name='mGeekCodes')
 following_me = twitter.get_followers_list(screen_name='mGeekCodes')
-print(followed['users'])
 for user in followed['users']:
     print user['screen_name']
     if user['screen_name'] not in to_be_followed:
         if user['screen_name'] not in following_me['users']:
             twitter.destroy_friendship(screen_name=user['screen_name'])
             
-for user in to_be_followed:
-    twitter.create_friendship(screen_name=user)
 for user in following_me['users']:
-    twitter.create_friendship(screen_name=user)
+    twitter.create_friendship(screen_name=user['screen_name'])
 

@@ -11,8 +11,8 @@ oauth_token = "3678562272-rkoFVgBY1ws0PRwo8RCoznou0Rh8MvfJirViugW"
 oauth_token_secret = "lU6LLvoINShdkkPsftM6LL3rZBZL40c2AhIDpD3gd7CvV"
 
 banned_accounts = ['todocoders', 'nodenow', 'MusicHackFest', 'guttulus', 'WebgyrizCode', 'verlenda']
-naughty_words = [" -RT", "HackerEarth", "Looking for", "Jobs", "job", "prizes", "todocoders"]
-good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23CodeALot", "%23CodeHard", "%40mGeekCodes"]
+naughty_words = [" -RT", "HackerEarth", "Looking for", "Jobs", "job", "prizes", "todocoders", "sold"]
+good_words = ["%23CodeBetter", "%23SoftwareCode", "%23AndroidCode", "%23PythonCode", "%23JavaCode", "%23Coder", "%23Coding", "%23ArduinoCode", "%23BetterAndroid", "%23CodeALot", "%23CodeHard", "%40mGeekCodes", "%23womenintech"]
 filter = " OR ".join(good_words)
 blacklist = " -".join(naughty_words)
 keywords = filter + blacklist
